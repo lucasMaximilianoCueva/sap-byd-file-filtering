@@ -6,7 +6,7 @@ import axios from "axios";
 import { Link } from "@mui/material";
 
 const Home = () => {
-  const baseUrl = "http://localhost:5000/api";
+  const baseUrl = "https://dull-gray-lamb.cyclic.app/api";
   const pointer = {cursor: 'pointer'};
 
   const [fileUpdated, setFileUpdated] = React.useState(false);
@@ -48,7 +48,7 @@ const Home = () => {
             archivo para luego ser cargado en el sistema SAP Business ByDesign.
           </p>
           {fileUpdated ? (
-            <p>Ya podés descargar el archivo haciendo click <Link href="http://localhost:5000/api/download" style={pointer}>aquí</Link></p>
+            <p>Ya podés descargar el archivo haciendo click <Link href="https://dull-gray-lamb.cyclic.app/api/download" style={pointer}>aquí</Link></p>
           ) : (
             button
           )}

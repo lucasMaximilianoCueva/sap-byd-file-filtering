@@ -37,4 +37,4 @@ Ejemplo de vista:
 
  
 
-![alt text](./src/Assets/example.png.png)
+![alt text](./src/Assets/example.png)
